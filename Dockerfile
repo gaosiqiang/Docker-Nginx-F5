@@ -1,4 +1,4 @@
-FROM alpine:build
+FROM alpine:latest
 MAINTAINER "Cloth Mo" <root@buxiaomo.com>
 
 ENV NGINX_VERSION 1.11.7
