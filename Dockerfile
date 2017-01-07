@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM registry.cn-hangzhou.aliyuncs.com/buxiaomo/alpine-build:latest
 MAINTAINER "Cloth Mo" <root@buxiaomo.com>
 
 ENV NGINX_VERSION 1.11.7
