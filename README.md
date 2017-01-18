@@ -1,6 +1,6 @@
 # Docker-Nginx-F5
 
-    docker run -d --name F5 -p 80:80 -v /docker/nginx.d/:/usr/local/nginx/conf/conf.d/ --network www nginx:f5
+    docker run -d --name F5 -p 80:80 -v /docker/nginx.d/:/usr/local/nginx/conf/conf.d/ nginx:f5
 
 /docker/nginx.d/moli.conf
 
